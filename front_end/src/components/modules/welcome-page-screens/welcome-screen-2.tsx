@@ -29,7 +29,7 @@ export const ScreenTwo: React.FC = () => (
           helperText="wrong entry"
           onChange={() => ""}
         />
-        <button type="button">sign in</button>
+        <button type="button">sign in / sign up</button>
       </FormField>
     </AuthenticationCard>
   </STWrapper>
