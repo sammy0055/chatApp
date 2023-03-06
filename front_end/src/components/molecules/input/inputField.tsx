@@ -23,7 +23,7 @@ const InputField: React.FC<InputFieldProps> = ({label, value, helperText, onChan
         type="input"
         id="name"
       />
-      <Label htmlFor="name">Name</Label>
+      <Label htmlFor="name">{label}</Label>
       {touched && <HelperText>check label</HelperText>}
     </FormField>
   );
